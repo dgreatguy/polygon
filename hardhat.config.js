@@ -10,13 +10,13 @@ module.exports = {
       // @ts-ignore
       accounts: [process.env.PRIVATEKEY],
     },
-    goerli: {
-      url: process.env.SEPOLIARPC,
+    sepolia: {
+      url: "https://ethereum-sepolia-rpc.publicnode.com",
       // @ts-ignore
       accounts: [process.env.PRIVATEKEY],
     },
-    mumbai: {
-      url: process.env.MUMBAIRPC,
+    amoy: {
+      url: 'https://polygon-amoy.drpc.org',
       accounts: [process.env.PRIVATEKEY],
     },
     hardhat: {
